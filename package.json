@@ -1,0 +1,24 @@
+{
+  "name": "back-boardgame",
+  "version": "1.0.0",
+  "description": "Back for board games",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^3.25.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etochy/back-boardgame.git"
+  },
+  "author": "Esteban Launay",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/etochy/back-boardgame/issues"
+  },
+  "homepage": "https://github.com/etochy/back-boardgame#readme"
+}
