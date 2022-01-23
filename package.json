@@ -4,11 +4,15 @@
   "description": "Back for board games",
   "main": "index.js",
   "dependencies": {
-    "fastify": "^3.25.3"
+    "fastify": "^3.25.3",
+    "fastify-websocket": "^4.0.0",
+    "uid": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "start": "node src/index",
+    "start": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
