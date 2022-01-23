@@ -1,0 +1,272 @@
+{
+    "name": "CardGame_52",
+    "board": "CardGame_52/img/board.jpg",
+    "items": [],
+    "decks": [
+        {
+            "name": "deck1",
+            "cards": [
+                {
+                    "name": "asPique",
+                    "recto": "CardGame_52/img/decks/deck1/as.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "2Pique",
+                    "recto": "CardGame_52/img/decks/deck1/2s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "3Pique",
+                    "recto": "CardGame_52/img/decks/deck1/3s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "4Pique",
+                    "recto": "CardGame_52/img/decks/deck1/4s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "5Pique",
+                    "recto": "CardGame_52/img/decks/deck1/5s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "6Pique",
+                    "recto": "CardGame_52/img/decks/deck1/6s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "7Pique",
+                    "recto": "CardGame_52/img/decks/deck1/7s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "8Pique",
+                    "recto": "CardGame_52/img/decks/deck1/8s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "9Pique",
+                    "recto": "CardGame_52/img/decks/deck1/9s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "10Pique",
+                    "recto": "CardGame_52/img/decks/deck1/10s.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "valetPique",
+                    "recto": "CardGame_52/img/decks/deck1/js.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "damePique",
+                    "recto": "CardGame_52/img/decks/deck1/qs.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "roiPique",
+                    "recto": "CardGame_52/img/decks/deck1/ks.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "asTrefle",
+                    "recto": "CardGame_52/img/decks/deck1/ac.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "2Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/2c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "3Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/3c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "4Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/4c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "5Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/5c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "6Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/6c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "7Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/7c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "8Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/8c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "9Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/9c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "10Trefle",
+                    "recto": "CardGame_52/img/decks/deck1/10c.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "valetTrefle",
+                    "recto": "CardGame_52/img/decks/deck1/jc.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "dameTrefle",
+                    "recto": "CardGame_52/img/decks/deck1/qc.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "roiTrefle",
+                    "recto": "CardGame_52/img/decks/deck1/kc.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "asCarreau",
+                    "recto": "CardGame_52/img/decks/deck1/ad.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "2Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/2d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "3Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/3d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "4Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/4d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "5Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/5d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "6Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/6d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "7Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/7d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "8Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/8d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "9Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/9d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "10Carreau",
+                    "recto": "CardGame_52/img/decks/deck1/10d.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "valetCarreau",
+                    "recto": "CardGame_52/img/decks/deck1/jd.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "dameCarreau",
+                    "recto": "CardGame_52/img/decks/deck1/qd.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "roiCarreau",
+                    "recto": "CardGame_52/img/decks/deck1/kd.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "asCoeur",
+                    "recto": "CardGame_52/img/decks/deck1/ah.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "2Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/2h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "3Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/3h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "4Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/4h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "5Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/5h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "6Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/6h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "7Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/7h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "8Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/8h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "9Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/9h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "10Coeur",
+                    "recto": "CardGame_52/img/decks/deck1/10h.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "valetCoeur",
+                    "recto": "CardGame_52/img/decks/deck1/jh.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "dameCoeur",
+                    "recto": "CardGame_52/img/decks/deck1/qh.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                },
+                {
+                    "name": "roiCoeur",
+                    "recto": "CardGame_52/img/decks/deck1/kh.jpg",
+                    "verso": "CardGame_52/img/decks/deck1/verso.jpg"
+                }
+            ]
+        }
+    ]
+}
