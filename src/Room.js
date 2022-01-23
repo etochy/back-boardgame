@@ -51,6 +51,11 @@ class Room {
         this.webSocketClients.push(client);
     }
 
+    clientWebSocketLeave(client) {
+        let i = this.webSocketClients.findIndex(c => (c === client));
+        this.webSocketClients.splice(i);
+    }
+
     sendData(data = "toto") {
         for (const client of this.webSocketClients) {
             client.send(JSON.stringify(data));

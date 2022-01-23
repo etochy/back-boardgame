@@ -15,11 +15,8 @@ fastify.register(require('fastify-websocket'),
       maxPayload: 1048576, // we set the maximum allowed messages size to 1 MiB (1024 bytes * 1024 bytes)
       clientTracking: true,
       verifyClient: function (info, next) {
-        // console.log("INFO : ", info.req.url);
         const reg = /\/websocket\/.*/
         const idRoom = info.req.url.substring(11, info.req.url.length);
-
-        // console.log(info.req.url.match(reg), idRoom);
         if (info.req.url.match(reg) && rooms.has(idRoom)) {
           return next(true) // the connection is allowed
         } else {
@@ -58,11 +55,29 @@ fastify.post('/rooms/create', async (request, reply) => {
   return newRoom.getRoom();
 })
 
+// Join Room
+fastify.put('/rooms/:id', async (request, reply) => {
+  let id = request.params.id;
+  let password = request.body ? request.body.password : "";
+  let user = request.body ? request.body.user : null;
+  if (rooms.has(id) && user) {
+    let retJoin = rooms.get(id).joinRoom(user, password);
+    if (retJoin) {
+      return reply.status(200).send("Now connect to websocket");
+    } else {
+      return reply.status(400).send("Error while joining the room");
+    }
+  } else {
+    return reply.status(400).send("Room does not exist or username not existing");
+  }
+})
+
 // Delete a room
 fastify.delete('/rooms/:id', async (request, reply) => {
   let id = request.params.id;
   let password = request.body ? request.body.password : "";
   if (rooms.has(id) && rooms.get(id).password === password) {
+    rooms.get(id).sendData("Suppression Salle");
     rooms.delete(id);
     return reply.status(204).send();
   } else {
@@ -88,6 +103,12 @@ fastify.get("/websocket/:id",
     socket.on('message', function (message) {
       fastify.log.info(`Received message: ${message}`)
       room.sendData(message.toString());
+    });
+
+    // Remove client from socket array in room
+    socket.on('close', function(message){
+      fastify.log.info(`Close Websocket: ${message}`)
+      room.clientWebSocketLeave(socket);
     })
   })
 
