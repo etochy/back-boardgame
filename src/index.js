@@ -3,6 +3,27 @@ const Room = require('./Room');
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true });
 
+// CORS
+fastify.register(require('fastify-cors'), function (instance) {
+
+  return (req, callback) => {
+    let corsOptions;
+    // do not include CORS headers for requests from localhost
+    try {
+      const origin = req.headers.origin
+      const hostname = new URL(origin).hostname
+      if (hostname === "localhost") {
+        corsOptions = { origin: true }
+      } else {
+        corsOptions = { origin: false }
+      }
+    } catch (error) {
+      corsOptions = { origin: false }
+    }
+    callback(null, corsOptions) // callback expects two parameters: error and options
+  }
+})
+
 //Websocket
 fastify.register(require('fastify-websocket'),
   {
@@ -40,7 +61,7 @@ fastify.get('/rooms', async (request, reply) => {
   rooms.forEach(r => {
     ret.push(r.getRoom());
   })
-  return { ret }
+  return ret
 })
 
 // Create a room
@@ -106,7 +127,7 @@ fastify.get("/websocket/:id",
     });
 
     // Remove client from socket array in room
-    socket.on('close', function(message){
+    socket.on('close', function (message) {
       fastify.log.info(`Close Websocket: ${message}`)
       room.clientWebSocketLeave(socket);
     })
